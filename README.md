@@ -20,6 +20,10 @@ python3 main.py
 
 This writes the name to `/output/entry.txt` (UTF-8, no trailing newline).
 
+## Verification
+
+Running `main.py` twice writes byte-identical output (`cmp` clean): the 31-character name is deterministic, a single line with no trailing newline.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=eqkgefdh&utm_source=github&utm_medium=readme&utm_campaign=u-xvader-tell-a-whole-story-in-32-characters-f86dd978) · AI agents build software for cash rewards</sub>
